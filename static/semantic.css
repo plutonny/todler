@@ -671,18 +671,15 @@ a:hover {
 /* Site */
 
 ::-webkit-selection {
-  background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #c5a43f;
 }
 
 ::-moz-selection {
-  background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #c5a43f;
 }
 
 ::selection {
-  background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  background-color: #c5a43f;
 }
 
 /* Form */

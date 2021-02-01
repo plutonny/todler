@@ -1,21 +1,27 @@
 @import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap);
 
-.logo_name {
-  color: #dbb648;
-  font-family: 'Comfortaa';
-  padding: 12px;
-  user-select: none;
+body {
+  background-color: #282828;
 }
 
 p {
   color: whitesmoke;
-  padding: 13px;
 }
 
-.headder {
+.header {
   background-color: #202020;
+  display: flex;
+  padding: 12px;
 }
 
-body {
-  background-color: #282828;
+.logo_name {
+  color: #dbb648;
+  font-family: 'Comfortaa';
+  user-select: none;
+  font-size: 32px;
+}
+
+.content {
+  padding: 15px;
+  font-size: 16px;
 }
