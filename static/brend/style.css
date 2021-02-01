@@ -3,4 +3,19 @@
 .logo_name {
   color: #dbb648;
   font-family: 'Comfortaa';
+  padding: 12px;
+  user-select: none;
+}
+
+p {
+  color: whitesmoke;
+  padding: 13px;
+}
+
+.headder {
+  background-color: #202020;
+}
+
+body {
+  background-color: #282828;
 }
