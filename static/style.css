@@ -12,6 +12,28 @@ p {
   background-color: #202020;
   display: flex;
   padding: 12px;
+  align-items: center;
+}
+
+.header_icon:hover {
+  color: #dbb648;
+}
+
+.header_icon {
+  color: #dbb648;
+}
+
+.header_space {
+  margin-right: auto;
+}
+
+.header_item {
+  margin-right: 16px;
+}
+
+.icon {
+  fill: currentColor;
+  height: 28px;
 }
 
 .logo_name {
