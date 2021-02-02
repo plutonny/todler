@@ -1,14 +1,13 @@
 @import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap);
 
-body {
-  background-color: #282828;
-}
+/*
+               ------- DESKTOP -------
+*/
 
-p, h1, h2, h3, h4, h5, h6 {
-  color: whitesmoke;
-  font-family: 'Montserrat';
-}
+body { background-color: #282828; }
+
+p, h1, h2, h3, h4, h5, h6 { color: whitesmoke; font-family: 'Montserrat'; }
 
 .header {
   background-color: #202020;
@@ -17,26 +16,10 @@ p, h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
-.header_icon:hover {
-  color: #dbb648;
-}
-
-.header_icon {
-  color: #dbb648;
-}
-
-.header_space {
-  margin-right: auto;
-}
-
-.header_item {
-  margin-right: 16px;
-}
-
-.icon {
-  fill: currentColor;
-  height: 28px;
-}
+.header_icon:hover { color: #dbb648; }
+.header_icon { color: #dbb648; }
+.header_space { margin-right: auto; }
+.header_item { margin-right: 16px; }
 
 .logo_name {
   color: #dbb648;
