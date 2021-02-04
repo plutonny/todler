@@ -1,34 +1,25 @@
 @import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap);
+body { background-color: #282828; }
+p, h1, h2, h3, h4, h5, h6 { color: whitesmoke; font-family: 'Montserrat'; }
 
 /*
                ------- DESKTOP -------
 */
 
-body { background-color: #282828; }
+@media (max-height: ) {
 
-p, h1, h2, h3, h4, h5, h6 { color: whitesmoke; font-family: 'Montserrat'; }
-
-.header {
-  background-color: #202020;
-  display: flex;
-  padding: 12px;
-  align-items: center;
 }
 
-.header_icon:hover { color: #dbb648; }
+.header { background-color: #202020; display: flex; padding: 12px; align-items: center; }
+.header_icon:hover { color: #a28632; }
 .header_icon { color: #dbb648; }
 .header_space { margin-right: auto; }
 .header_item { margin-right: 16px; }
+.logo_name { color: #dbb648; font-family: 'Comfortaa'; user-select: none; font-size: 32px; }
+.logo_name:hover { color: #a28632; }
+.content { padding: 15px; font-size: 16px; }
 
-.logo_name {
-  color: #dbb648;
-  font-family: 'Comfortaa';
-  user-select: none;
-  font-size: 32px;
-}
-
-.content {
-  padding: 15px;
-  font-size: 16px;
-}
+/*
+               ------- MOBILE -------
+*/
